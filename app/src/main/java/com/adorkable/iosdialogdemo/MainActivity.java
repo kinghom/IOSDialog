@@ -61,7 +61,7 @@ public class MainActivity extends Activity implements OnClickListener {
                         .builder()
                         .setCancelable(false)
                         .setCanceledOnTouchOutside(false)
-                        .addSheetItem("发送给好友", SheetItemColor.Blue,
+                        .addSheetItem("发送给好友1", SheetItemColor.Blue,
                                 new OnSheetItemClickListener() {
                                     @Override
                                     public void onClick(int which) {
